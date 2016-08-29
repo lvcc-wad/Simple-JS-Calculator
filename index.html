@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<title>Simple JS Calculator</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,800,300">
+	</head>
+	<body>
+		<input id="settings-btn" type="checkbox" class="settings-btn">
+		<label for="settings-btn" class="settings-box-element"><img src="img/themes.png" width="15" alt="themes-settings" title="themes-settings"></label>
+		<div class="buttons-wrapper settings-box-element"></div>		
+		<input id="blue-theme" class="blue-theme" type="radio" name="layout">
+		<label for="blue-theme" class="layout-buttons settings-box-element">Blue</label>
+		<input id="white-theme" class="white-theme" type="radio" name="layout">
+		<label for="white-theme" class="layout-buttons settings-box-element">White</label>
+		<input id="black-theme" class="black-theme" type="radio" name="layout">
+		<label for="black-theme" class="layout-buttons settings-box-element">Black</label>
+		<input id="gray-theme" class="gray-theme" type="radio" name="layout">
+		<label for="gray-theme" class="layout-buttons settings-box-element">Gray</label>
+		<input id="hide-show" class="hide-show" type="checkbox">
+		<label for="hide-show" class="layout-buttons settings-box-element">Hide/Show</label>
+
+		<div id="calculator">
+			<div class="top">Simple JS Calculator</div>
+			<div id="result"></div>
+			<div class="keys">
+				<span>7</span>
+				<span>8</span>
+				<span>9</span>
+				<span class="operator" title="Plus">+</span>
+				<span>4</span>
+				<span>5</span>
+				<span>6</span>
+				<span class="operator" title="Minus/Negative">-</span>
+				<span>1</span>
+				<span>2</span>
+				<span>3</span>
+				<span class="operator" title="Divide">/</span>
+				<span id="clear" title="Clear">C</span>
+				<span>0</span>
+				<span title="Decimal">.</span>
+				<span class="operator" title="Times">*</span>
+				<span id="eval" title="Answer">=</span>
+			</div>
+		</div>
+		
+		<script src="js/calc-click.js"></script>
+		<script src="js/calc-keydown.js"></script>
+	</body>
+</html>
