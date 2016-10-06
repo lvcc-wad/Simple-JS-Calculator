@@ -1,4 +1,4 @@
-# Simple JS Calculator
+# [Simple JS Calculator](https://lvcc-wad.github.io/Simple-JS-Calculator/)
 A very simple JavaScript calculator with color theme switch using CSS.
 
 ## Screenshots:
